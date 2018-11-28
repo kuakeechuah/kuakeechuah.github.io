@@ -1,0 +1,84 @@
+a:hover {
+color:red;
+text-decoration:none;
+
+}
+
+a:focus {
+    color:yellow;
+}
+
+.my_color {
+color:blue;
+
+}
+
+.my_font {
+font-size:24px;
+
+}
+
+
+.my_box {
+
+    background-color:aquamarine;
+    /*
+    border-top: 10px;
+    border-top-style: solid;
+    border-top-color: blue;
+
+    border-bottom:10px;
+    border-bottom-style:solid;
+    border-bottom-color: blue;
+    
+    border-left:10px;
+    border-left-style:solid;
+    border-left-color: blue;
+
+    border-right:10px;
+    border-right-style:solid;
+    border-right-color: blue;
+*/
+
+border:10px solid black;
+padding:50px;
+margin: 30px;
+
+width: 50%;
+height:200px;
+background-image:url(Swiss\ Alps.jpg);
+background-size:cover; 
+
+background-attachment:local;
+
+margin-left:auto;
+margin-right:auto;
+}
+
+form{
+    width:50%;
+    margin:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.my_input_txt{
+width:50%;
+margin:10px;
+margin-left:auto;
+margin-right:auto;
+
+}
+
+@media (max-width:500px){
+
+h1 { font: size 10px;
+}
+
+@media (min-width:800px){
+
+    h1 { font: size 500px;
+    }
+
+
+}    
