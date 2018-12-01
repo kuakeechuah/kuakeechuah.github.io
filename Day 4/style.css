@@ -1,0 +1,33 @@
+body{
+
+    font-family:'Monserrat',sans-serif;
+}
+
+
+
+h1{
+
+    font-family:'Monserrat',sans-serif;
+
+}
+
+
+
+.btn-primary{
+    background-color:skyblue
+}
+
+.jumbotron { background-color:skyblue
+}
+
+h1{
+   color:white!important; 
+}
+
+h2{color:black}
+h3{text-align: center}
+.general_spacing{margin-bottom: 100px}
+
+.list-group{text-align: center}
+.list-inline{text-align: center}
+.col-md-6 {text-align: center}
