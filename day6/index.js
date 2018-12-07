@@ -24,16 +24,20 @@ function getMyFullName(){
     var fullName = firstName + " " + lastName;
     return fullName;
 }
-
 var myFullName = getMyFullName();
 console.log(myFullName);
 
-function calculate(firstName, lastName){
-    var greetingName = "Hello," + firstName + "" + lastName
+function calculate(firstName, lastName, bornYear){
+var age= 2018-bornYear;
+
+    var greetingName = "Hello," + firstName + " " + lastName + " " +age;
     console.log(greetingName);
 }
+calculate ("Michael", "Jordan", 1988)
+calculate ("Mauro","Icardi", 1979)
+calculate ("Lionel" , "Messi", 1981)
 
-calculate ("michael", "jordan")
-calculate ("mauro","kardi")
-calculate ("lionel" , "messi")
 
+function testme(){
+    alert("Hi you hit the button");
+}
